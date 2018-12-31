@@ -10,7 +10,6 @@ export default () => (
 					siteMetadata {
 						title
 						author
-						imageUrl
 						description
 						keywords
 					}
