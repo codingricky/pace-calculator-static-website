@@ -32,11 +32,9 @@ module.exports = {
 		},
 		`gatsby-plugin-sass`,
 		{
-			resolve: `gatsby-plugin-google-analytics`,
+			resolve: `gatsby-plugin-google-gtag`,
 			options: {
-				trackingId: 'UA-131530228-1',
-				// Setting this parameter is optional (requried for some countries such as Germany)
-				anonymize: true
+				trackingIds: ['G-XXXXXXXXXX'], // Replace with your GA4 measurement ID
 			}
 		},
 		`gatsby-plugin-sitemap`

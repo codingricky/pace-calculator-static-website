@@ -1,8 +1,8 @@
 // Importing variables
-@import './variables.scss';
+@use './variables.scss' as *;
 
 // Importing Bulma from node_modules
-@import '~bulma/bulma.sass';
+@use 'bulma/bulma';
 
 .gradientBg {
 	display: flex;
