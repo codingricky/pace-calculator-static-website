@@ -31,12 +31,6 @@ module.exports = {
 			}
 		},
 		`gatsby-plugin-sass`,
-		{
-			resolve: `gatsby-plugin-google-gtag`,
-			options: {
-				trackingIds: ['G-XXXXXXXXXX'], // Replace with your GA4 measurement ID
-			}
-		},
 		`gatsby-plugin-sitemap`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
